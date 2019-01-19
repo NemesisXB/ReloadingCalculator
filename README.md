@@ -16,5 +16,16 @@ Input the measured bullet speeds. The calculator will determine the both the ave
 Calculator to help with the calibration of the powder burn rates in QuickLoad. Input the original "ratio of specific heats" and "Burning rate factor". Input a new value for the "Ratio of Specific Heats" and the new value for the "Burning rate factor" is calculated. Input these new values into QuickLoad and see if the adjusted speed matches the measured speed. If not, change the new ratio of specific heats and update the values in QuickLoad until the QuickLoad speed matches the measured speed.
 The adjustment should not exceed 3% in either direction.
 
+### VMD Powder Factor
+Calculates the required cc for a specified grain of a specified powder.
+Supported powders:
+* Alliant
+* Hodgdon
+* Norma
+* Somchem
+* Vihtavuori
+* Western
+
+
 ## Plugin
 The Case Water Capacity calculator requires a plugin to be installed for excel. The plugin is available at https://github.com/NemesisXB/Excel-ModeFuzzyUDF/releases
